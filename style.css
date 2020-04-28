@@ -1,0 +1,114 @@
+*{
+	font-family: 'Muli', sans-serif;
+	box-sizing: border-box;	
+	padding: 0;
+	margin: 0;
+}
+
+body {	
+	width: 500px;		
+	/* border: 2px solid blue; */
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+}
+
+label, p {
+    display: inline;
+}
+
+.container {   
+    background: url(https://c.radikal.ru/c02/2004/bb/ecb917025070.jpg) no-repeat center top / cover;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.head {
+    height: 50px;   
+}
+
+#time {
+    padding: 10px;
+    font-size: large;
+    display: inline;
+    float: left;
+}
+
+#score {
+    padding: 10px;
+    font-size: large;
+    display: inline;
+    float: right;
+}
+
+.section {   
+    content: '';
+	display: block;
+	height: 50px;
+    clear: both;
+    font-size: large;
+    padding: 10px;    
+   
+}
+
+select {    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.button{   	
+    height: 165px;   
+    padding-top: 100px;	
+}
+
+#start, #next {
+    padding: 10px 30px 10px 30px;   
+    margin: 10px 50px 10px 50px;
+    border-radius: 40px;
+    font-weight: 900;
+    text-transform: uppercase;        
+}
+
+#start {
+    float: left;        
+}
+
+#next {
+    float: right;      
+}
+
+#start:hover, 
+#next:hover {
+	color: blue;	
+	transition: all 0.5s ease;
+}
+
+.cards {       
+	height: 150px;   
+    font-size: large;
+    padding: 10px;   
+    text-align: center;    
+}
+
+.ivrit{
+    font-weight: 900;
+    font-size: 1.5em;
+    word-spacing: 10px;
+}
+
+.transcription{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.translate{    
+    font-size: 1.5em;
+}
+
+.result {
+    padding: 10px;
+    font-size: large;
+    display: inline;
+    float: left;
+}
